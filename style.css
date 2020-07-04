@@ -5,41 +5,52 @@
 
 body {
     border: 0px;
-    background-color: black;
+    background-color: yellow;
 }
 
 #hud-div {
     position: absolute;
-    background-color: transparent;
+    background-color: black;
     height: 280px;
     margin-top: 0px;
     width: 400px;
     right: 20px;
     bottom: 20px;
-    opacity: 80%;
 }
 
 #id {
-    position: relative;
-    top: 0px;
-    margin-top: 0px;
-    margin-left: auto;
+    position: absolute;
+    margin-left: 46%;
+    margin-top: 2%;
     text-align: center;
     color: white;
+    display: block;
+    font-size: 30px;
 }
 
 #name {
-    position: relative;
-    margin-top: 0px;
-    margin-left: auto;
+    position: absolute;
+    margin-left: 26%;
+    margin-top: 8%;
     text-align: center;
     color: white;
+    display: block;
+    font-size: 30px;
+}
+
+#nameconteiner {
+    height: 80px;
+    width: 400px;
+    background-color: tomato;
+    opacity: 80%;
 }
 
 .container {
     position: relative;
     margin-left: 20px;
     margin-top: 0px;
+    background-color: transparent;
+    opacity: 80%;
 }
 
 .img {
