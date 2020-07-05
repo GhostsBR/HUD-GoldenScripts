@@ -6,17 +6,19 @@
 
 body {
     border: 0px;
-    background-color: yellow;
+    background-color: rgb(173, 173, 173);
 }
 
 #hud-div {
     position: absolute;
-    background-color: black;
-    height: 380px;
+    background-color: rgb(190, 190, 190);
+    height: 270px;
     margin-top: 0px;
+    border-radius: 12px;
     width: 300px;
     right: 20px;
     bottom: 20px;
+    opacity: 80%;
 }
 
 .money {
@@ -32,7 +34,6 @@ body {
     margin-left: 20px;
     margin-top: 0px;
     background-color: transparent;
-    opacity: 80%;
 }
 
 .img {
@@ -63,7 +64,7 @@ body {
 
 .progress-armor {
     position: absolute;
-    width: 200px;
+    width: 250px;
     height: 25px;
     border-radius: 150px;
     background-color: rgb(27, 46, 214);
@@ -72,7 +73,7 @@ body {
 
 .progress-hunger {
     position: absolute;
-    width: 200px;
+    width: 250px;
     height: 25px;
     border-radius: 150px;
     background-color: rgb(214, 127, 27);
@@ -81,7 +82,7 @@ body {
 
 .progress-thirst {
     position: absolute;
-    width: 200px;
+    width: 250px;
     height: 25px;
     border-radius: 150px;
     background-color: rgb(27, 208, 214);
@@ -90,7 +91,7 @@ body {
 
 .progress-drunk {
     position: absolute;
-    width: 200px;
+    width: 250px;
     height: 25px;
     border-radius: 150px;
     background-color: rgb(201, 214, 27);
@@ -100,4 +101,5 @@ body {
 .job {
     color: white;
     text-align: center;
+    text-decoration: solid;
 }
