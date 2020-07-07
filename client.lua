@@ -21,7 +21,7 @@ end)
 Citizen.CreateThread(function ()
 	Citizen.Wait(1000)
     while true do
-        Citizen.Wait(250)
+		Citizen.Wait(250)
         SendNUIMessage({
 			update = true,
 			hunger = hunger,

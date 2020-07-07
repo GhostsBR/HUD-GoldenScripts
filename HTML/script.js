@@ -13,7 +13,7 @@ $(document).ready(function(){
     // Functions
     // Update health/thirst bars
     function setProgress(percent, element){
-      $(element).width(percent);
+      $(element).width(percent * 2.5);
     }
     
   

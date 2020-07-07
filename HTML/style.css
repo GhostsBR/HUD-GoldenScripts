@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
-    font-family: 'Yellowtail', cursive;
     font-family: 'Roboto', sans-serif;
+    opacity: 20%;
 }
 
 body {
@@ -15,9 +15,8 @@ body {
     margin-top: 0px;
     border-radius: 12px;
     width: 300px;
-    right: 20px;
+    right: 30px;
     bottom: 20px;
-    opacity: 80%;
 }
 
 .money {
@@ -30,8 +29,7 @@ body {
 
 .container {
     position: relative;
-    margin-left: 20px;
-    margin-top: 0px;
+    margin-top: 80px;
     background-color: transparent;
 }
 
@@ -39,7 +37,6 @@ body {
     position: relative;
     margin-left: 8px;
     top: 5px;
-    opacity: 100%;
 }
 
 .progress {
@@ -47,54 +44,47 @@ body {
     height: 25px;
     margin-top: 10px;
     border-radius: 150px;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(204, 204, 204);
 }
 
 .progress-health {
     position: absolute;
-    top: 0px;
-    width: 250px;
-    margin-top: 35px;
+    width: 0px;
     height: 25px;
     border-radius: 150px;
     background-color: rgb(214, 27, 36);
-    opacity: 80%;
 }
 
 .progress-armor {
     position: absolute;
-    width: 250px;
+    width: 0px;
     height: 25px;
     border-radius: 150px;
     background-color: rgb(27, 46, 214);
-    opacity: 80%;
 }
 
 .progress-hunger {
     position: absolute;
-    width: 250px;
+    width: 0px;
     height: 25px;
     border-radius: 150px;
     background-color: rgb(214, 127, 27);
-    opacity: 80%;
 }
 
 .progress-thirst {
     position: absolute;
-    width: 250px;
+    width: 0px;
     height: 25px;
     border-radius: 150px;
     background-color: rgb(27, 208, 214);
-    opacity: 80%;
 }
 
 .progress-drunk {
     position: absolute;
-    width: 250px;
+    width: 0px;
     height: 25px;
     border-radius: 150px;
     background-color: rgb(201, 214, 27);
-    opacity: 80%;
 }
 
 .job {
