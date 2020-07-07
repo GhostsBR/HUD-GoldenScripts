@@ -6,12 +6,11 @@
 
 body {
     border: 0px;
-    background-color: rgb(173, 173, 173);
 }
 
 #hud-div {
     position: absolute;
-    background-color: rgb(190, 190, 190);
+    background-color: transparent;
     height: 270px;
     margin-top: 0px;
     border-radius: 12px;
@@ -24,10 +23,10 @@ body {
 .money {
     position: relative;
     color: white;
-    text-align: left;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 45px;
 }
-
-
 
 .container {
     position: relative;
